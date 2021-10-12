@@ -14,10 +14,7 @@
     <!-- external style sheet  -->
     <link rel="stylesheet" href="style.css">
     <!-- FontAwesome 5.15.3 CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -83,13 +80,16 @@
             culpa sed nulla architecto!</p>
         <div class="row">
             <div class="col-12 col-md-4">
-                <i class="fas fa-font"></i> Typography
+                <meter id="disk_c" value="7" min="0" max="10"></meter>
+                <h3 class="pt-3 tomato"><i class="fas fa-font tomato"></i> Typography</h3>
             </div>
             <div class="col-12 col-md-4">
-                <i class="fas fa-pen"></i> Design
+                <meter id="disk_c" value="9" min="0" max="10"></meter>
+                <h3 class="pt-3 yellow"><i class="fas fa-pen yellow"></i> Design</h3>
             </div>
             <div class="col-12 col-md-4">
-                <i class="fas fa-code"></i> Development
+                <meter id="disk_c" value="5" min="0" max="10"></meter>
+                <h3 class="pt-3 lavender"><i class="fas fa-code lavender"></i> Development</h3>
             </div>
         </div>
     </div>
@@ -202,11 +202,11 @@
         <div class="row row-cals-4 text-center text-light bg-warning  pt-5 pb-5">
             <div class="col-12 col-sm-4 num--item1">
                 <h2 class="fw-bolder">14</h2>
-                <h6>PROJECTS</h6>
+                <h6 class="pb-3">PROJECTS</h6>
             </div>
             <div class="col-12 col-sm-4 num--item2">
                 <h2 class="fw-bolder">7</h2>
-                <h6>CLIENTS</h6>
+                <h6 class="pb-3">CLIENTS</h6>
             </div>
             <div class="col-12 col-sm-4">
                 <h2 class="fw-bolder">14</h2>
@@ -320,7 +320,7 @@
                 <label for="name">Your Name [Requird]</label><br>
                 <input type="text">
             </div>
-            <div class="col-1 col-lg-4 mt-2 mb-32">
+            <div class="col-12 col-lg-4 mt-2 mb-3">
                 <label for="mail">Your Email[Requird]</label><br>
                 <input type="email">
             </div>
@@ -338,7 +338,7 @@
         </div>
         <div class="row mt-3 mb-5">
             <div class="col">
-                <button class="btn btn-warning btn-lg">send</button>
+                <button class="btn btn-warning btn-lg float-end">send</button>
             </div>
         </div>
     </div>
