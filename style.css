@@ -12,7 +12,7 @@
 
 .nav-link:hover{
     border-bottom: 2px solid white;
-}  
+} 
 
 .main{
     background-image: url('main0001.jpg');
@@ -81,9 +81,10 @@ label, #contact p{
     background-color: rgb(34,47,54);
     color: white;
 }
-#blog button, .fas{
+#blog button{
     color: white;
 }
+
 .blog--card{
     display: flex;
     justify-content: center;
